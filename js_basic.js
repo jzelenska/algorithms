@@ -103,7 +103,7 @@ console.log(`The average of this array is ${average}.`);
 // create a function that will loop through the array running a value check and replacing a value, in case of corresponding to the if condition
 // print the modified array
 
-const x = [2, -1, 4, -3];
+let x = [2, -1, 4, -3];
 function negativesReplacement(array) {
     for (let i=0; i<array.length; i++) {
         if (array[i] < 0) {
@@ -122,7 +122,7 @@ negativesReplacement(x);
 // create a function that will loop through the array running a value check and replacing a value 
 // print the modified array
 
-const x = [1, -1, 2, -2, 3, -3];
+let x = [1, -1, 2, -2, 3, -3];
 
 function negativesToStrings(array) {
     for (let i = 0; i < array.length; i++) {
